@@ -1,0 +1,52 @@
+/* Font Family Import */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Fira Sans", serif;
+    background-color: #F5F5F5;
+    padding: 50px;
+}
+
+/* Common CSS */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-family: "Fira Sans", serif;
+    background-color: #006A50;
+    color: #fff;
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(1, 63, 48);
+}
+
+.section-title {
+    color: #0e0e0e;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.paragraph {
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
