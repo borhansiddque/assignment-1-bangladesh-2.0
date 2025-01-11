@@ -279,11 +279,12 @@ thead th {
 }
 
 .opinion-btn {
-    background: rgb(198, 228, 214);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
+    background: rgb(198, 228, 214);
+    color: #0e0e0e;
     padding: 10px 14px;
     border: 1px solid rgb(14, 14, 14);
     border-radius: 4px;
@@ -311,11 +312,12 @@ thead th {
     width: 420px;
     height: 100%;
     border-radius: 24px;
+    object-fit: cover;
 }
 
 .news-title {
     color: rgba(14, 14, 14, 0.8);
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
 }
 
