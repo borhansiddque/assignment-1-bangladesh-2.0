@@ -327,7 +327,7 @@ thead th {
     margin: 12px 0px 32px;
 }
 
-/* Donation Section */
+/* Donation Section Style */
 
 .donation-section {
     margin: 80px 0px;
@@ -392,8 +392,7 @@ thead th {
     margin-top: 32px;
 }
 
-/* Newsletter Section */
-
+/* Newsletter Section Style */
 .newsletter-section {
     border-radius: 24px;
     background: rgb(198, 228, 214);
@@ -414,11 +413,14 @@ thead th {
 }
 
 .newsletter-input {
-    border: none;
-    outline: none;
-    padding: 21px 40px;
     width: 70%;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 21px 40px;
+    border: none;
     border-radius: 8px 0px 0px 8px;
+    outline: none;
 }
 
 .newsletter-input-container .btn {
@@ -427,4 +429,37 @@ thead th {
 
 .not-spam-text {
     margin-top: 25px;
+}
+
+/* Footer Section Style */
+footer {
+    background-color: #fff;
+    margin-top: 80px;
+    padding: 50px 0px;
+}
+
+.footer-content {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-content .footer-line {
+    width: 60%;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links img {
+    width: 25px;
+    cursor: pointer;
 }
