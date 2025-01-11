@@ -289,3 +289,40 @@ thead th {
     border-radius: 4px;
     cursor: pointer;
 }
+
+/* News Section Style */
+.news-container {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 48px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+
+.news-img img {
+    width: 420px;
+    height: 100%;
+    border-radius: 24px;
+}
+
+.news-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.news-content img {
+    margin: 12px 0px;
+} 
+
+.news-description {
+    margin: 12px 0px 32px;
+}
