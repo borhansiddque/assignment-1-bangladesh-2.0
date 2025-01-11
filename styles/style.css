@@ -238,3 +238,54 @@ nav {
     font-size: 20px;
     font-weight: 600;
 }
+
+/* Your Opinion Section Style */
+.your-opinion {
+    margin: 80px 0px;
+}
+
+.opinion-container {
+    background: rgb(255, 255, 255);
+    padding: 32px;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background: rgb(198, 228, 214);
+}
+
+th, td {
+    padding: 24px;
+}
+
+table, tr, td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+}
+
+thead th {
+    text-align-last: left;
+}
+
+.opinion-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opinion-btn {
+    background: rgb(198, 228, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    cursor: pointer;
+}
