@@ -220,3 +220,21 @@ nav {
 .vision-card-three .vision-btn:hover {
     background: rgb(238, 170, 13);
 }
+
+.vision-adviser {
+    background-color: #fff;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("../images/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 2% 10%;
+    margin-top: 32px;
+    padding: 40px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.vision-adviser-name {
+    color: rgba(14, 14, 14, 0.8);
+    margin: 15px 0px 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
