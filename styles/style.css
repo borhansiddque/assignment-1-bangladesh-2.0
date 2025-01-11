@@ -350,13 +350,17 @@ thead th {
 .donate-card {
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    background: rgb(255, 255, 255);
+    background: #ffffff;
     padding: 40px 50px;
     cursor: pointer;
     text-align: center;
 }
 
 .donate-card:hover {
+    background: rgb(198, 228, 214);
+}
+
+.donate-card-bg {
     background: rgb(198, 228, 214);
 }
 
